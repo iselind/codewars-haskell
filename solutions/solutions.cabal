@@ -28,6 +28,7 @@ library
       Categorize
       Categorize.Types
       Isogram
+      Printer
   other-modules:
       Paths_solutions
   hs-source-dirs:
@@ -54,6 +55,7 @@ test-suite solutions-test
   other-modules:
       CategorizeSpec
       IsogramSpec
+      PrinterSpec
       Paths_solutions
   hs-source-dirs:
       test
