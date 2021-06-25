@@ -15,3 +15,9 @@ spec :: Spec
 spec = do
     describe "printerError" $ do
         testPrinter "aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbmmmmmmmmmmmmmmmmmmmxyz" "3/56"
+        testPrinter "kkkwwwaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbmmmmmmmmmmmmmmmmmmmxyz" "6/60"
+        testPrinter "abc" "0/3"
+        testPrinter "abcx" "1/4"
+        testPrinter "xabc" "1/4"
+        testPrinter "aaabbbbhaijjjm" "0/14"
+        testPrinter "aaaxbbbbyyhwawiwjjjwwm" "8/22"
